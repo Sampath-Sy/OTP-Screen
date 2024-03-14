@@ -1,0 +1,50 @@
+.otp-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100mvh;
+    
+    
+
+}
+.otp-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otp-inputs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.otp-inputs input{
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 20px;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+button :hover{
+    background-color: #b30000;
+}
+.success-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.success-container h2{
+    color: #28a745; 
+}
+.success-container p{
+    color: #6c757d;
+}
