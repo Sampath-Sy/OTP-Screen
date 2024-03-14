@@ -1,7 +1,5 @@
 import { useState } from "react"
-// interface Props {
-//   name:string
-// }
+
 function App() {
   const [count, setCount]=useState<number>(0);
   const increment=()=>{
